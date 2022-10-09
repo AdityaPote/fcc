@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #23252c;
+}
+
+.App {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  font-family: "Inter", sans-serif;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20rem;
+  background-color: #1a1b21;
+  color: white;
+  border-radius: 10px;
+}
+
+.card-photo {
+  width: 100%;
+  height: 20rem;
+  background-size: 200%;
+  background-repeat: no-repeat;
+  background-position: 45% 38%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card-photo img {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  width: 100%;
+  height: 20rem;
+  object-fit: cover;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  width: 90%;
+  gap: 1em;
+}
+
+.card-name {
+  text-align: center;
+}
+
+.card-name--site {
+  font-size: 0.8rem;
+  margin-block: 0.75em 0.5em;
+  color: #f5f5f5;
+}
+
+.card-name--title {
+  color: #f3bf99;
+}
+
+.card-buttons {
+  width: 100%;
+  display: flex;
+  gap: 1.5em;
+}
+
+.card-buttons span {
+  width: 100%;
+  padding-block: 0.5em;
+  border-radius: 6px;
+  background-color: #fff;
+  color: #374151;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  gap: 0.5em;
+  align-items: center;
+}
+
+.card-buttons span:nth-child(2) {
+  background-color: #5093e2;
+  color: #fff;
+}
+
+.card-info {
+  margin-block: 1em;
+}
+
+.card-info--section:nth-child(1) {
+  margin-bottom: 1.5em;
+}
+
+.card-info--section h2 {
+  font-size: 1.2rem;
+  margin-bottom: 0.25em;
+  color: #f5f5f5;
+}
+
+.card-info--section p {
+  font-size: 0.8rem;
+  line-height: 150%;
+  font-weight: lighter;
+  color: #dcdcdc;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 64px;
+  background-color: #161619;
+  color: white;
+  border-radius: 10px;
+  gap: 1.5em;
+}
+
+.footer i {
+  font-size: 2rem;
+  color: #918E9B;
+}
+
+.footer i:hover {
+  color: #5093e2;
+  cursor: pointer;
+}
